@@ -4,7 +4,7 @@
   "description": "Building full stack javascript app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exic babel-node server.js --ignore public/",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd"
   },
   "author": "Greg Duncan",
